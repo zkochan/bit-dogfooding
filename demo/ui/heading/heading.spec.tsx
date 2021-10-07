@@ -6,7 +6,7 @@ import {
   H3Heading,
   H4Heading,
   H5Heading,
-  H6Heading
+  H6Heading,
 } from './heading.composition';
 
 it('should render H1 heading', () => {

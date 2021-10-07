@@ -25,11 +25,7 @@ export type CardProps = {
   command?: string;
 };
 
-export function Card(
-  {
-    heading, command, text, link,
-  }: CardProps,
-) {
+export function Card({ heading, command, text, link }: CardProps) {
   return (
     <div className={styles.card}>
       <ExternalLink href={link}>
