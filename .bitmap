@@ -27,11 +27,23 @@
         "mainFile": "index.ts",
         "rootDir": "demo/ui/card"
     },
+    "ui/gomb": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "dogfooding/ui/gomb"
+    },
     "ui/heading": {
         "scope": "zoltan.dogfooding",
         "version": "1.0.0",
         "mainFile": "index.ts",
         "rootDir": "demo/ui/heading"
+    },
+    "ui/kartya": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "dogfooding/ui/kartya"
     },
     "ui/my-component": {
         "scope": "zoltan.dogfooding",
