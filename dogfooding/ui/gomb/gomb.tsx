@@ -10,7 +10,7 @@ export type GombProps = {
 export function Gomb({ text }: GombProps) {
   return (
     <button>
-      {text}
+      {text} new version
     </button>
   );
 }
