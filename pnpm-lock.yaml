@@ -12,7 +12,7 @@ importers:
       '@teambit/harmony': 0.2.11
       '@teambit/react.templates.themes.theme': 0.0.4
       '@testing-library/react': 12.0.0
-      '@types/jest': 26.0.20
+      '@types/jest': ^26.0.24
       '@types/node': 12.20.4
       '@types/react': ^17.0.31
       '@types/react-dom': ^17.0.10
@@ -27,7 +27,7 @@ importers:
       eslint-plugin-mdx: 1.15.0
       eslint-plugin-react: 7.25.1
       react: 17.0.2
-      react-dom: ^17.0.2
+      react-dom: 17.0.2
     dependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
       '@teambit/design.ui.external-link': registry.npmjs.org/@teambit/design.ui.external-link/0.0.344_react-dom@17.0.2+react@17.0.2
@@ -49,7 +49,7 @@ importers:
       react: registry.npmjs.org/react/17.0.2
       react-dom: registry.npmjs.org/react-dom/17.0.2_react@17.0.2
     devDependencies:
-      '@types/jest': registry.npmjs.org/@types/jest/26.0.20
+      '@types/jest': registry.npmjs.org/@types/jest/26.0.24
       '@types/node': registry.npmjs.org/@types/node/12.20.4
       '@types/react': registry.npmjs.org/@types/react/17.0.31
       '@types/react-dom': registry.npmjs.org/@types/react-dom/17.0.10
@@ -70,10 +70,25 @@ importers:
   demo/ui/text:
     specifiers: {}
 
+  dogfooding/envs/my-react:
+    specifiers: {}
+
+  dogfooding/pages/welcome:
+    specifiers: {}
+
+  dogfooding/ui/card:
+    specifiers: {}
+
   dogfooding/ui/gomb:
     specifiers: {}
 
+  dogfooding/ui/heading:
+    specifiers: {}
+
   dogfooding/ui/kartya:
+    specifiers: {}
+
+  dogfooding/ui/text:
     specifiers: {}
 
   scope/ui/my-component:
@@ -870,10 +885,10 @@ packages:
     dependencies:
       '@types/istanbul-lib-report': registry.npmjs.org/@types/istanbul-lib-report/3.0.0
 
-  registry.npmjs.org/@types/jest/26.0.20:
-    resolution: {integrity: sha512-9zi2Y+5USJRxd0FsahERhBwlcvFh6D2GLQnY2FH2BzK8J9s9omvNHIbvABwIluXa0fD8XVKMLTO0aOEuUfACAA==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@types/jest/-/jest-26.0.20.tgz}
+  registry.npmjs.org/@types/jest/26.0.24:
+    resolution: {integrity: sha512-E/X5Vib8BWqZNRlDxj9vYXhsDwPYbPINqKF9BsnSoon4RQ0D9moEuLD8txgyypFLH7J4+Lho9Nr/c8H0Fi+17w==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/@types/jest/-/jest-26.0.24.tgz}
     name: '@types/jest'
-    version: 26.0.20
+    version: 26.0.24
     dependencies:
       jest-diff: registry.npmjs.org/jest-diff/26.6.2
       pretty-format: registry.npmjs.org/pretty-format/26.6.2
@@ -945,7 +960,7 @@ packages:
     name: '@types/testing-library__jest-dom'
     version: 5.9.5
     dependencies:
-      '@types/jest': registry.npmjs.org/@types/jest/26.0.20
+      '@types/jest': registry.npmjs.org/@types/jest/26.0.24
     dev: true
 
   registry.npmjs.org/@types/unist/2.0.6:
