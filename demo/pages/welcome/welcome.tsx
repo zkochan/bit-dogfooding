@@ -1,7 +1,7 @@
 import React from 'react';
-import { Card } from '@company/scope.ui.card';
-import { Heading } from '@company/scope.ui.heading';
-import { Text } from '@company/scope.ui.text';
+import { Card } from '@company/zoltan.dogfooding.ui.card';
+import { Heading } from '@company/zoltan.dogfooding.ui.heading';
+import { Text } from '@company/zoltan.dogfooding.ui.text';
 import styles from './welcome.module.scss';
 
 export function Welcome() {
