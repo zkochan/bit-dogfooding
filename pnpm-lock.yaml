@@ -73,6 +73,9 @@ importers:
   dogfooding/ui/gomb:
     specifiers: {}
 
+  dogfooding/ui/kartya:
+    specifiers: {}
+
   scope/ui/my-component:
     specifiers: {}
 
