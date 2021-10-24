@@ -15,5 +15,11 @@
         "mainFile": "index.ts",
         "rootDir": "dogfooding/ui/gomb"
     },
+    "ui/kartya": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "dogfooding/ui/kartya"
+    },
     "$schema-version": "14.9.0"
 }

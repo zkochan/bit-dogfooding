@@ -9,8 +9,8 @@ export type GombProps = {
 
 export function Gomb({ text }: GombProps) {
   return (
-    <div>
+    <button>
       {text}
-    </div>
+    </button>
   );
 }
