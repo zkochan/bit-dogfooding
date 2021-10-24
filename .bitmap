@@ -10,14 +10,14 @@
 
 {
     "ui/gomb": {
-        "scope": "",
-        "version": "",
+        "scope": "zoltan.dogfooding",
+        "version": "1.0.0",
         "mainFile": "index.ts",
         "rootDir": "dogfooding/ui/gomb"
     },
     "ui/kartya": {
-        "scope": "",
-        "version": "",
+        "scope": "zoltan.dogfooding",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "dogfooding/ui/kartya"
     },
